@@ -1,0 +1,22 @@
+:root {
+    --sidebarwc: 10deg;
+}
+.sidebar{
+    font-family: sans-serif;
+}
+#sidebar_background{
+    
+    border: 0px solid;
+    width: 15.625%;
+    height: 100%;
+    background-color: #A78566;
+    transform: translate(-8px, -8px);
+
+    position: absolute;
+}
+#logo{
+    left: 1.5625%;
+    top: 30px;
+    position: absolute;
+    transform: matrix();
+}
