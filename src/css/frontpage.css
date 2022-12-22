@@ -1,22 +1,87 @@
-:root {
-    --sidebarwc: 10deg;
-}
-.sidebar{
+body {
+    margin: 0;
     font-family: sans-serif;
 }
-#sidebar_background{
-    
-    border: 0px solid;
-    width: 15.625%;
-    height: 100%;
-    background-color: #A78566;
-    transform: translate(-8px, -8px);
 
-    position: absolute;
+#sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #A78566;
+    color: #fff;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-#logo{
-    left: 1.5625%;
-    top: 30px;
+
+#sidebar > #logo {
+    width: 194px;
+    height: 42px;
     position: absolute;
-    transform: matrix();
+    top: 25px;
+    left: 25px;
+
+    /* logo size is 244x92 px */
+    transform: scale(194px, 1px);
+
+    /* css for placeholder, remove when cool */
+    text-align: center;
+    font-size: 100px;
+    color: #fbb;
+}
+
+#sidebar > #items {
+    width: 250px;
+    height: calc(100% - 150px);
+    position: absolute;
+
+    top: 125px;
+    left: 25px;
+}
+
+#sidebar > #items > .item {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 25px;
+    background:#705944ff;
+
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+}
+
+#sidebar > #items > .item:hover {
+    transform: scale(1.1);
+}
+
+#sidebar > #items > .item > .text {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 12px;
+    text-align: right;
+    font-size: 30px;
+}
+
+#itemone {
+   /* this is old: background: linear-gradient(60deg, #1f0, #0f6) !important */
+   background:#705944ff;
+}
+
+#itemtwo {
+    /* background: linear-gradient(60deg, #38f, #0df) !important */
+    background-color:#705944ff;
+}
+
+#itemthree {
+    /* background: linear-gradient(60deg, #f80, #fc0) !important */
+    background:#705944ff;
+}
+
+#itemfour {
+    /* background: linear-gradient(60deg, #80f, #c0f) !important */
+    background:#705944ff;
 }
