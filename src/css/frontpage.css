@@ -9,13 +9,16 @@ body {
     height: 100%;
     background: #A78566;
     color: #fff;
+}
+#sidebar > #quickSettings > #sectionDivider {
+    position: absolute;
+    width: 300px;
+    height: 25%;
+    border-radius: 25px;
 
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    top: 85%;
+    background: #705944ff;
+    color: #fff;
 }
 
 #sidebar > #logo {
@@ -34,7 +37,7 @@ body {
     color: #fbb;
 }
 
-#sidebar > #items {
+#sidebar > #buttons {
     width: 250px;
     height: calc(100% - 150px);
     position: absolute;
@@ -43,45 +46,59 @@ body {
     left: 25px;
 }
 
-#sidebar > #items > .item {
+#sidebar > #buttons > .button {
     width: 100%;
-    height: 70px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 25px;
     margin-top: 25px;
     background:#705944ff;
-
-    overflow: hidden;
-    transition: transform 0.3s ease-out;
 }
-
-#sidebar > #items > .item:hover {
-    transform: scale(1.1);
-}
-
-#sidebar > #items > .item > .text {
+#sidebar > #buttons > .button > .buttonText {
     width: 150px;
-    margin-left: 50px;
-    margin-top: 12px;
-    text-align: right;
-    font-size: 30px;
-}
+    margin-left: 70px;
+    text-align: left;
+    font-size: 25px;
 
-#itemone {
+    position: absolute;
+}
+#sidebar > #buttons > #buttonFive > #buttonFive_Text { width: 300px; font-size: 21px;}
+#sidebar > #buttons > #buttonOne > #buttonOne_Text{ top: 50px; }
+#sidebar > #buttons > #buttonTwo > #buttonTwo_Text{ top: 154px; }
+#sidebar > #buttons > #buttonThree> #buttonThree_Text{ top: 258px; }
+#sidebar > #buttons > #buttonFour > #buttonFour_Text{ top: 365px; }
+#sidebar > #buttons > #buttonFive > #buttonFive_Text{ top: 470px; }
+
+
+#sidebar > #buttons > .button > .buttonIcon {
+   width: 40px;
+   height: 40px;
+   padding-left: 15px;
+
+   position: absolute;
+}
+#sidebar > #buttons > #buttonOne > #buttonOne_Icon{ top: 45px; }
+#sidebar > #buttons > #buttonTwo > #buttonTwo_Icon{ top: 148px; }
+#sidebar > #buttons > #buttonThree> #buttonThree_Icon{ top: 253px; }
+#sidebar > #buttons > #buttonFour > #buttonFour_Icon{ top: 360px; }
+#sidebar > #buttons > #buttonFive > #buttonFive_Icon{ top: 460px; }
+
+
+#buttonOne {
    /* this is old: background: linear-gradient(60deg, #1f0, #0f6) !important */
    background:#705944ff;
 }
 
-#itemtwo {
+#buttonTwo {
     /* background: linear-gradient(60deg, #38f, #0df) !important */
-    background-color:#705944ff;
+    background:#705944ff;
 }
 
-#itemthree {
+#buttonThree {
     /* background: linear-gradient(60deg, #f80, #fc0) !important */
     background:#705944ff;
 }
 
-#itemfour {
+#buttonFour {
     /* background: linear-gradient(60deg, #80f, #c0f) !important */
     background:#705944ff;
 }
