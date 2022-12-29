@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #A78566;
+    color: #fff;
+}
+
+#sidebar > #logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    /* logo size is 244x92 px */
+
+    text-align: center;
+    font-size: 100px;
+    color: #fbb;
+}
+
+#sidebar > #buttons {
+    width: 250px;
+    height: calc(100% - 150px);
+    position: absolute;
+
+    top: 125px;
+    left: 25px;
+}
+
+#sidebar > #buttons > .button {
+    width: 100%;
+    height: 80px;
+    border-radius: 25px;
+    margin-top: 25px;
+    background:#705944ff;
+    cursor: pointer;
+}
+
+#sidebar > #buttons > .button > .buttonText {
+    width: 100%;
+    padding-left: 70px;
+    padding-top: 25px;
+    text-align: left;
+    font-size: 25px;
+
+    position: absolute;
+}
+
+#sidebar > #buttons > .button > .buttonIcon {
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 15px;
+ 
+    position: absolute;
+ }
+
+ #sidebar > #buttons > #buttonFive > #buttonFive_Text {font-size: 20px; padding-top: 30px;}
+
+ #sidebar > #quickSettings > #sectionDivider {
+    position: absolute;
+    width: 300px;
+    height: 20%;
+    border-radius: 25px;
+    top: 83%;
+    background: #705944ff;
+}
+
+#sidebar > #quickSettings > #sectionDivider > #search {
+
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 40px;
+
+    border-radius: 50px;
+
+    width: 280px;
+    height: 50px;
+    background: #554435;
+}
+
+#sidebar > #quickSettings > #sectionDivider > #search > #searchText {
+
+   font-size: 13px;
+   font-weight: bold;
+
+   margin-left: 40px;
+   margin-top: 18px;
+
+   
+   color: #382d23;
+}
+#sidebar > #quickSettings > #sectionDivider > #search > #searchIcon {
+
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 15px;
+    margin-top: -30px;
+
+    
+    color: #382d23;
+}
+#sidebar > #quickSettings > #sectionDivider > #userProfile {
+
+    position: absolute;
+
+    width: 50px;
+    height: 50px;
+
+    margin-left: 250px;
+    margin-top: 120px;
+
+    
+    color: #FFFFFF;
+}
+#sidebar > #quickSettings > #sectionDivider > #userProfile > #userProfileIcon {
+
+    position: absolute;
+
+    width: 50px;
+    height: 50px;
+
+    margin-left: 250px;
+    margin-top: 120px;
+
+    
+    color: #FFFFFF;
+}
+#sidebar > #quickSettings > #sectionDivider > #userProfile > #userProfileBackground {
+
+    position: absolute;
+    border-radius: 100px;
+
+    border: 15px solid;
+
+    margin-top: -15px;
+    
+    color: #534132;
+}
+ 
+
