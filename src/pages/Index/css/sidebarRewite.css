@@ -42,13 +42,14 @@ body {
 
 #sidebar > #buttons > .button > .buttonText {
     width: 100%;
-    margin-left: 70px;
-    margin-top: 25px;
+    padding-left: 70px;
+    padding-top: 25px;
     text-align: left;
     font-size: 25px;
 
     position: absolute;
 }
+
 #sidebar > #buttons > .button > .buttonIcon {
     width: 40px;
     height: 40px;
@@ -57,15 +58,54 @@ body {
  
     position: absolute;
  }
- #sidebar > #buttons > #buttonFive > #buttonFive_Text {font-size: 20px;}
+
+ #sidebar > #buttons > #buttonFive > #buttonFive_Text {font-size: 20px; padding-top: 30px;}
 
  #sidebar > #quickSettings > #sectionDivider {
     position: absolute;
     width: 300px;
-    height: 25%;
+    height: 20%;
     border-radius: 25px;
-
-    top: 85%;
+    top: 83%;
     background: #705944ff;
-    color: #fff;
 }
+
+#sidebar > #quickSettings > #sectionDivider > #search {
+
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 40px;
+
+    border-radius: 50px;
+
+    width: 280px;
+    height: 50px;
+    background: #554435;
+}
+
+#sidebar > #quickSettings > #sectionDivider > #search > #searchText {
+
+   font-size: 13px;
+   font-weight: bold;
+
+   margin-left: 40px;
+   margin-top: 18px;
+
+   
+   color: #382d23;
+}
+#sidebar > #quickSettings > #sectionDivider > #search > #searchIcon {
+
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 15px;
+    margin-top: -30px;
+
+    
+    color: #382d23;
+ }
+ 
+
