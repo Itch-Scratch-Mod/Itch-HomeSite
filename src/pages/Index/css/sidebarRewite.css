@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #A78566;
+    color: #fff;
+}
+
+#sidebar > #logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    /* logo size is 244x92 px */
+
+    text-align: center;
+    font-size: 100px;
+    color: #fbb;
+}
+
+#sidebar > #buttons {
+    width: 250px;
+    height: calc(100% - 150px);
+    position: absolute;
+
+    top: 125px;
+    left: 25px;
+}
+
+#sidebar > #buttons > .button {
+    width: 100%;
+    height: 80px;
+    border-radius: 25px;
+    margin-top: 25px;
+    background:#705944ff;
+}
+
+#sidebar > #buttons > .button > .buttonText {
+    width: 100%;
+    margin-left: 70px;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 25px;
+
+    position: absolute;
+}
+#sidebar > #buttons > .button > .buttonIcon {
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 15px;
+ 
+    position: absolute;
+ }
+ #sidebar > #buttons > #buttonFive > #buttonFive_Text {font-size: 20px;}
+
+ #sidebar > #quickSettings > #sectionDivider {
+    position: absolute;
+    width: 300px;
+    height: 25%;
+    border-radius: 25px;
+
+    top: 85%;
+    background: #705944ff;
+    color: #fff;
+}
