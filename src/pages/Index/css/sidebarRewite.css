@@ -38,6 +38,7 @@ body {
     border-radius: 25px;
     margin-top: 25px;
     background:#705944ff;
+    cursor: pointer;
 }
 
 #sidebar > #buttons > .button > .buttonText {
