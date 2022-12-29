@@ -85,13 +85,16 @@ body {
 }
 
 #sidebar > #quickSettings > #sectionDivider > #search > #searchText {
+   border: none;
+   display: inline;
+   font-family: inherit;
+   background-color: inherit;
 
    font-size: 13px;
    font-weight: bold;
 
    margin-left: 40px;
    margin-top: 18px;
-
    
    color: #382d23;
 }
@@ -103,8 +106,8 @@ body {
     height: 20px;
 
     margin-left: 15px;
-    margin-top: -30px;
-
+    top: 15px;
+    left: 0px;
     
     color: #382d23;
 }
@@ -115,7 +118,7 @@ body {
     width: 50px;
     height: 50px;
 
-    margin-left: 250px;
+    margin-left: 230px;
     margin-top: 120px;
 
     
@@ -146,4 +149,3 @@ body {
     color: #534132;
 }
  
-
