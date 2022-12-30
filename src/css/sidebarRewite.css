@@ -12,7 +12,7 @@ input:focus, textarea:focus, select:focus{
 }
 #sidebar {
     position: fixed;
-    width: 300px;
+    width: 400px;
     height: 100%;
     background: #A78566;
     color: #fff;
@@ -24,6 +24,7 @@ input:focus, textarea:focus, select:focus{
     left: 25px;
 
     /* logo size is 244x92 px */
+    margin-left: 40px;
 
     text-align: center;
     font-size: 100px;
@@ -44,6 +45,7 @@ input:focus, textarea:focus, select:focus{
     height: 80px;
     border-radius: 25px;
     margin-top: 25px;
+    margin-left: 40px;
     background:#705944ff;
     cursor: pointer;
 }
@@ -71,7 +73,7 @@ input:focus, textarea:focus, select:focus{
 
  #sidebar > #quickSettings > #sectionDivider {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 20%;
     border-radius: 25px;
     top: 83%;
@@ -86,7 +88,7 @@ input:focus, textarea:focus, select:focus{
 
     border-radius: 50px;
 
-    width: 280px;
+    width: 380px;
     height: 50px;
     background: #554435;
 }
@@ -123,7 +125,8 @@ input:focus, textarea:focus, select:focus{
     
     color: #382d23;
 }
-#sidebar > #quickSettings > #sectionDivider > #userProfile {
+
+#sidebar > #quickSettings > #sectionDivider > #AccountMail > #userProfile {
 
     position: absolute;
 
@@ -136,7 +139,7 @@ input:focus, textarea:focus, select:focus{
     
     color: #FFFFFF;
 }
-#sidebar > #quickSettings > #sectionDivider > #userProfile > #userProfileBackground > #userProfileIcon {
+#sidebar > #quickSettings > #sectionDivider > #AccountMail > #userProfile > #userProfileBackground > #userProfileIcon {
 
     position: absolute;
 
@@ -148,7 +151,7 @@ input:focus, textarea:focus, select:focus{
 
     color: #FFFFFF;
 }
-#sidebar > #quickSettings > #sectionDivider > #userProfile > #userProfileBackground {
+#sidebar > #quickSettings > #sectionDivider > #AccountMail > #userProfile > #userProfileBackground {
 
     position: absolute;
     border-radius: 100px;
@@ -156,8 +159,47 @@ input:focus, textarea:focus, select:focus{
     height: 40px;
 
    background-color: #382d23;
-    margin-left: -15px;
+    margin-left: 80px;
     margin-top: -15px;
     
     color: #534132;
+}
+#sidebar > #quickSettings > #sectionDivider > #AccountMail > #mail { 
+
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+
+    margin-top: 105px;
+    margin-left: 40px;
+}
+#sidebar > #quickSettings > #sectionDivider > #AccountMail > #mail > #mailIcon { 
+
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+}
+#sidebar > #quickSettings > #sectionDivider > #AccountMail > #userProfile > #userProfileText1 { 
+
+    position: absolute;
+
+    width: 80px;
+    height: 40px;
+
+    margin-left: 2px;
+    margin-top: -10px;
+    font-size: 12px;
+}
+#sidebar > #quickSettings > #sectionDivider > #AccountMail > #userProfile > #userProfileText2 { 
+
+    position: absolute;
+
+    width: 80px;
+    height: 40px;
+
+    margin-left: -15px;
+    margin-top: 0px;
+    font-size: 18px;
 }
