@@ -6,7 +6,10 @@ body {
 input:focus, textarea:focus, select:focus{
     outline: none;
 }
-
+::placeholder {
+    color: #382d23;
+    opacity: 1; /* Firefox */
+}
 #sidebar {
     position: fixed;
     width: 300px;
@@ -133,15 +136,17 @@ input:focus, textarea:focus, select:focus{
     
     color: #FFFFFF;
 }
-#sidebar > #quickSettings > #sectionDivider > #userProfile > #userProfileIcon {
+#sidebar > #quickSettings > #sectionDivider > #userProfile > #userProfileBackground > #userProfileIcon {
 
     position: absolute;
 
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 
-    margin-left: 250px;
-    margin-top: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+
 
     
     color: #FFFFFF;
@@ -150,9 +155,11 @@ input:focus, textarea:focus, select:focus{
 
     position: absolute;
     border-radius: 100px;
+    width: 40px;
+    height: 40px;
 
-    border: 10px solid;
-
+   background-color: #382d23;
+    margin-left: -15px;
     margin-top: -15px;
     
     color: #534132;
