@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
 }
 
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
 #sidebar {
     position: fixed;
     width: 300px;
@@ -86,13 +90,21 @@ body {
 
 #sidebar > #quickSettings > #sectionDivider > #search > #searchText {
 
-   font-size: 13px;
+   font-size: 12px;
    font-weight: bold;
+
+   width: 200px; 
+
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+   border-bottom-style: hidden;
+   background-color: #eee;
 
    margin-left: 40px;
    margin-top: 18px;
 
-   
+   background-color: #554435;
    color: #382d23;
 }
 #sidebar > #quickSettings > #sectionDivider > #search > #searchIcon {
@@ -102,8 +114,8 @@ body {
     width: 20px;
     height: 20px;
 
-    margin-left: 15px;
-    margin-top: -30px;
+    margin-left: -230px;
+    margin-top: 15px;
 
     
     color: #382d23;
@@ -139,11 +151,9 @@ body {
     position: absolute;
     border-radius: 100px;
 
-    border: 15px solid;
+    border: 10px solid;
 
     margin-top: -15px;
     
     color: #534132;
 }
- 
-
