@@ -10,9 +10,9 @@
         </head>
          <body>
           <div id="sidebar">
-            <div onclick="location.href='#';" id="logo"> <img src="/src/images/itchlogo.png" alt="The Itch Logo"> </div>
+            <div onclick="location.href='/src/index.html';" id="logo"> <img src="/src/images/itchlogo.png" alt="The Itch Logo"> </div>
             <div id="buttons">
-                 <div onclick="location.href='new.html';" class="button" id="buttonOne">
+                 <div onclick="location.href='/src/pages/NewProject/html/newProject.html';" class="button" id="buttonOne">
                       <div class="buttonText" id="buttonOne_Text">New Project</div>
                       <img src="/src/images/sidebar_icons/buttons/NewProjectIcon.svg" alt="Create a new project" class="buttonIcon" id="buttonOne_Icon">
                 </div>
@@ -28,39 +28,33 @@
                      <div class="buttonText" id="buttonFour_Text">Extensions</div>
                      <img src="/src/images/sidebar_icons/buttons/ExtensionsIcon.svg" alt="View the list of extensions made by the itch community" class="buttonIcon" id="buttonFour_Icon">
                  </div>
-                 <div onclick="location.href='src/pages/featured/html/chromeext.html';" class="button" id="buttonFive">
+                 <div onclick="location.href='/src/pages/chromeext/html/chromeext.html';" class="button" id="buttonFive">
                     <div class="buttonText" id="buttonFive_Text">Chrome Extension</div>
                     <img src="/src/images/sidebar_icons/buttons/DownloadChromeExtensionIcon.svg" alt="Download the Itch Chrome Extension" class="buttonIcon" id="buttonFive_Icon">
                 </div>
            </div>
            <div id="quickSettings">
             <div id="sectionDivider">
-
               <div id="AccountMail">
-              <div id="userProfile">
-                <div id="userProfileBackground" class="circle">
-                  <img src="/src/images/sidebar_icons/QuickActions/Profile.svg" id="userProfileIcon"></div>
-                  <p id="userProfileText1"> Logged in as</p>
-                  <h6 id="userProfileText2">Username</h6>
+               <div id="userProfile">
+                 <div id="userProfileBackground" class="circle">
+                   <img src="/src/images/sidebar_icons/QuickActions/Profile.svg" id="userProfileIcon"></div>
+                   <p id="userProfileText1"> Logged in as</p>
+                   <h6 id="userProfileText2">Username</h6>
+               </div>
+
+               <div id="mail"> 
+                <img src="/src/images/sidebar_icons/QuickActions/Message.svg" alt="View your messages and Alerts" id="mailIcon">
+               </div>
               </div>
 
-              <div id="mail"> 
-               <img src="/src/images/sidebar_icons/QuickActions/Message.svg" alt="View your messages and Alerts" id="mailIcon">
-              </div>
-
-              </div>
               <div id="search">
                     <input placeholder="Search for Accounts, Projects, etc..." id="searchText"></input>
                     <img src="/src/images/sidebar_icons/QuickActions/Search.svg" id="searchIcon">
               </div>
-
-
             </div>
            </div>
-   
-   
         </div>
-
         <div id="NewsSection">
             <div id="ScratchNews"></div>
                <!---TODO: Finish scratch news section-->
